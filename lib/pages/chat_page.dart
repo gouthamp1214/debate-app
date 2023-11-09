@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'dart:core';
 import 'package:flutter/material.dart';
 
@@ -45,10 +47,14 @@ class _ChatPageState extends State<ChatPage> {
               width: 400,
               child: Container(
                 color: Colors.grey[400],
-                child: Text(
-                  sportsPost,
-                  style: const TextStyle(
-                    fontSize: 25,
+                //margin: const EdgeInsets.all(10.0),
+                child: Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Text(
+                    sportsPost,
+                    style: const TextStyle(
+                      fontSize: 25,
+                    ),
                   ),
                 ),
               ),
@@ -116,10 +122,13 @@ class _ChatPageState extends State<ChatPage> {
               width: 400,
               child: Container(
                 color: Colors.grey[400],
-                child: Text(
-                  politicsPost,
-                  style: const TextStyle(
-                    fontSize: 25,
+                child: Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Text(
+                    politicsPost,
+                    style: const TextStyle(
+                      fontSize: 25,
+                    ),
                   ),
                 ),
               ),
@@ -187,10 +196,13 @@ class _ChatPageState extends State<ChatPage> {
               width: 400,
               child: Container(
                 color: Colors.grey[400],
-                child: Text(
-                  sciencePost,
-                  style: const TextStyle(
-                    fontSize: 25,
+                child: Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Text(
+                    sciencePost,
+                    style: const TextStyle(
+                      fontSize: 25,
+                    ),
                   ),
                 ),
               ),
@@ -258,10 +270,13 @@ class _ChatPageState extends State<ChatPage> {
               width: 400,
               child: Container(
                 color: Colors.grey[400],
-                child: Text(
-                  moviePost,
-                  style: const TextStyle(
-                    fontSize: 25,
+                child: Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Text(
+                    moviePost,
+                    style: const TextStyle(
+                      fontSize: 25,
+                    ),
                   ),
                 ),
               ),
